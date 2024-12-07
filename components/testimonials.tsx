@@ -21,6 +21,7 @@ import ClientImg06 from "@/public/images/client-logo-06.svg";
 import ClientImg07 from "@/public/images/client-logo-07.svg";
 import ClientImg08 from "@/public/images/client-logo-08.svg";
 import ClientImg09 from "@/public/images/client-logo-09.svg";
+import { link } from "fs";
 
 const testimonials = [
   {
@@ -31,6 +32,8 @@ const testimonials = [
     content:
       "As a content creator, I was always on the lookout for a tool that could help me keep up with the demand. The AI-driven content tool has been a game-changer. It generates high-quality content in a fraction of the time it used to take me.",
     categories: [1, 3, 5],
+    link: "https://www.disney.com", // Add your link here
+
   },
   {
     img: TestimonialImg02,
@@ -242,13 +245,16 @@ export function Testimonial({
     company: string;
     content: string;
     categories: number[];
+    link?: string; // Optional property for the company link
   };
   category: number;
   children: React.ReactNode;
 }) {
   return (
     <article
-      className={`relative rounded-2xl bg-gradient-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-sm transition-opacity before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] ${!testimonial.categories.includes(category) ? "opacity-30" : ""}`}
+      className={`relative rounded-2xl bg-gradient-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-sm transition-opacity before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] ${
+        !testimonial.categories.includes(category) ? "opacity-30" : ""
+      }`}
     >
       <div className="flex flex-col gap-4">
         <div>
@@ -270,13 +276,29 @@ export function Testimonial({
             <span className="text-gray-700"> - </span>
             <a
               className="text-indigo-200/65 transition-colors hover:text-indigo-500"
-              href="#0"
+              href={testimonial.link || "#0"} // Add the link dynamically
+              target="_blank" // Open in a new tab
+              rel="noopener noreferrer" // Ensure security
             >
               {testimonial.company}
             </a>
           </div>
         </div>
+        {/* Add the link below the content if needed */}
+        {testimonial.link && (
+          <div className="mt-2">
+            <a
+              href={testimonial.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-indigo-400 hover:text-indigo-500"
+            >
+              Visit {testimonial.company}
+            </a>
+          </div>
+        )}
       </div>
     </article>
   );
 }
+
