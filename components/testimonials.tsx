@@ -121,11 +121,11 @@ const testimonials = [
   },
   {
     img: TestimonialImg09,
-    clientImg: ClientImg12, // LifeTax Financial logo placeholder
+    clientImg: ClientImg04, // LifeTax Financial logo placeholder
     name: "New York, NY",
     company: "LifeTax Financial",
     content: "Offering expert tax preparation and financial planning services, LifeTax Financial helps individuals and businesses achieve financial success.",
-    categories: [3, 4],
+    categories: [1, 3, 4],
     link: "https://lifetaxfinancial.com",
   },
   {
@@ -233,13 +233,29 @@ export default function Testimonials() {
                 >
                   <path d="M3.757 3.758a6 6 0 0 1 8.485 8.485 5.992 5.992 0 0 1-5.301 1.664 1 1 0 1 0-.351 1.969 8 8 0 1 0-4.247-2.218 1 1 0 0 0 1.415-.001L9.12 8.294v1.827a1 1 0 1 0 2 0v-4.2a.997.997 0 0 0-1-1.042H5.879a1 1 0 1 0 0 2h1.829l-4.599 4.598a6 6 0 0 1 .648-7.719Z" />
                 </svg>
-                <span>Enteprise</span>
+                <span>Wholesale</span>
               </button>
               {/* Button #5 */}
               <button
                 className={`flex h-8 flex-1 items-center gap-2.5 whitespace-nowrap rounded-full px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-200 ${category === 5 ? "relative bg-gradient-to-b from-gray-900 via-gray-800/60 to-gray-900 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.indigo.500/0),theme(colors.indigo.500/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]" : "opacity-65 transition-opacity hover:opacity-90"}`}
                 aria-pressed={category === 5}
                 onClick={() => setCategory(5)}
+              >
+                <svg
+                  className={`fill-current ${category === 5 ? "text-indigo-500" : "text-gray-600"}`}
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height={16}
+                >
+                  <path d="M13.95.879a3 3 0 0 0-4.243 0L1.293 9.293a1 1 0 0 0-.274.51l-1 5a1 1 0 0 0 1.177 1.177l5-1a1 1 0 0 0 .511-.273l1.16-1.16a1 1 0 0 0-1.414-1.414l-.946.946-3.232.646.646-3.232 8.2-8.2a1 1 0 0 1 1.414 0l1.172 1.172a1 1 0 0 1 0 1.414l-.55.549a1 1 0 0 0 1.415 1.414l.55-.55a3 3 0 0 0 0-4.241L13.948.879ZM3.25 4.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Zm11.474 6.029-1.521-.752-.752-1.521c-.168-.341-.73-.341-.896 0l-.752 1.52-1.521.753a.498.498 0 0 0 0 .896l1.52.752.753 1.52a.5.5 0 0 0 .896 0l.752-1.52 1.52-.752a.498.498 0 0 0 0-.896Z" />
+                </svg>
+                <span>Divi & WordPress</span>
+              </button>
+              {/* Button #6 */}
+              <button
+                className={`flex h-8 flex-1 items-center gap-2.5 whitespace-nowrap rounded-full px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-200 ${category === 5 ? "relative bg-gradient-to-b from-gray-900 via-gray-800/60 to-gray-900 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.indigo.500/0),theme(colors.indigo.500/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]" : "opacity-65 transition-opacity hover:opacity-90"}`}
+                aria-pressed={category === 6}
+                onClick={() => setCategory(6)}
               >
                 <svg
                   className={`fill-current ${category === 5 ? "text-indigo-500" : "text-gray-600"}`}
