@@ -32,7 +32,7 @@ const testimonials = [
   {
     img: TestimonialImg01,
     clientImg: ClientImg02,
-    name: "Miami, FL", // Location of MMJ Bankers
+    name: "Las Vegas, NV", // Location of MMJ Bankers
     company: "MMJ Bankers",
     content:
       "Providing banking solutions for cannabis-related businesses, MMJ Bankers offers secure and efficient financial services tailored to the unique needs of the industry.",
@@ -42,7 +42,7 @@ const testimonials = [
   {
     img: TestimonialImg02,
     clientImg: ClientImg06,
-    name: "Los Angeles, CA", // Location of Silverlake Media
+    name: "Burbank, CA", // Location of Silverlake Media
     company: "Silverlake Media",
     content:
       "A full-service digital marketing agency specializing in creative solutions, Silverlake Media delivers outstanding results in branding, SEO, and social media marketing.",
@@ -52,7 +52,7 @@ const testimonials = [
   {
     img: TestimonialImg03,
     clientImg: ClientImg12,
-    name: "San Diego, CA", // Location of Terpene Wholesalers
+    name: "Las Vegas, NV", // Location of Terpene Wholesalers
     company: "Terpene Wholesalers",
     content:
       "Supplying high-quality terpenes to businesses across the globe, Terpene Wholesalers is your trusted partner for natural and organic terpene products.",
@@ -62,7 +62,7 @@ const testimonials = [
   {
     img: TestimonialImg04,
     clientImg: ClientImg08,
-    name: "Phoenix, AZ", // Location of Go Virtual Pro
+    name: "Houston, TX", // Location of Go Virtual Pro
     company: "Go Virtual Pro",
     content:
       "Empowering businesses with expert virtual assistant services, Go Virtual Pro ensures productivity and efficiency for professionals worldwide.",
@@ -82,7 +82,7 @@ const testimonials = [
   {
     img: TestimonialImg06,
     clientImg: ClientImg11,
-    name: "Seattle, WA", // Location of International Stair Products
+    name: "Carrollton, TX", // Location of International Stair Products
     company: "International Stair Products",
     content:
       "Offering premium stair solutions, International Stair Products combines quality materials with innovative designs for homes and businesses.",
@@ -92,7 +92,7 @@ const testimonials = [
   {
     img: TestimonialImg07,
     clientImg: ClientImg13,
-    name: "Houston, TX", // Location of UD Renovations
+    name: "Dallas, TX", // Location of UD Renovations
     company: "UD Renovations",
     content:
       "Transforming spaces with exceptional remodeling services, UD Renovations creates beautiful and functional environments tailored to your needs.",
@@ -102,7 +102,7 @@ const testimonials = [
   {
     img: TestimonialImg08,
     clientImg: ClientImg03,
-    name: "San Diego, CA", // Location of Realty National Group
+    name: "Cedar Hill, TX", // Location of Realty National Group
     company: "Realty National Group",
     content:
       "Providing expert real estate services, Realty National Group helps clients navigate the buying, selling, and investing process with ease.",
@@ -112,7 +112,7 @@ const testimonials = [
   {
     img: TestimonialImg09,
     clientImg: ClientImg05,
-    name: "Los Angeles, CA", // Location of Lucky Roots
+    name: "Sacramento, CA", // Location of Lucky Roots
     company: "Lucky Roots",
     content:
       "Supplying high-quality cannabis products, Lucky Roots is dedicated to providing natural and organic options for the discerning consumer.",
@@ -122,7 +122,7 @@ const testimonials = [
   {
     img: TestimonialImg09,
     clientImg: ClientImg04, // LifeTax Financial logo placeholder
-    name: "New York, NY",
+    name: "Dallas, TX",
     company: "LifeTax Financial",
     content: "Offering expert tax preparation and financial planning services, LifeTax Financial helps individuals and businesses achieve financial success.",
     categories: [1, 3, 4],
@@ -131,7 +131,7 @@ const testimonials = [
   {
     img: TestimonialImg09,
     clientImg: ClientImg09, // Terpene Warehouse logo placeholder
-    name: "San Francisco, CA",
+    name: "L.A./Costa Mesa, CA",
     company: "Terpene Warehouse",
     content: "Providing a wide range of terpene products, Terpene Warehouse is the go-to destination for high-quality terpenes sourced from natural ingredients.",
     categories: [1, 5],
