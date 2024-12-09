@@ -36,7 +36,7 @@ const testimonials = [
     company: "MMJ Bankers",
     content:
       "Providing banking solutions for cannabis-related businesses, MMJ Bankers offers secure and efficient financial services tailored to the unique needs of the industry.",
-    categories: [1, 3, 5],
+    categories: [1, 5],
     link: "https://mmjbankers.com",
   },
   {
@@ -46,7 +46,7 @@ const testimonials = [
     company: "Silverlake Media",
     content:
       "A full-service digital marketing agency specializing in creative solutions, Silverlake Media delivers outstanding results in branding, SEO, and social media marketing.",
-    categories: [1, 2, 4],
+    categories: [1, 5],
     link: "https://silverlakemedia.com",
   },
   {
@@ -56,7 +56,7 @@ const testimonials = [
     company: "Terpene Wholesalers",
     content:
       "Supplying high-quality terpenes to businesses across the globe, Terpene Wholesalers is your trusted partner for natural and organic terpene products.",
-    categories: [1, 2, 5],
+    categories: [1, 5],
     link: "https://terpenewholesalers.com",
   },
   {
@@ -66,7 +66,7 @@ const testimonials = [
     company: "Go Virtual Pro",
     content:
       "Empowering businesses with expert virtual assistant services, Go Virtual Pro ensures productivity and efficiency for professionals worldwide.",
-    categories: [1, 4],
+    categories: [1, 5],
     link: "https://govirtualpro.com",
   },
   {
@@ -76,7 +76,7 @@ const testimonials = [
     company: "First Class Construction 2",
     content:
       "Specializing in residential and commercial construction, First Class Construction 2 delivers top-notch craftsmanship and exceptional customer service.",
-    categories: [1, 3, 5],
+    categories: [1, 5],
     link: "https://firstclassconstruction2.com",
   },
   {
@@ -86,7 +86,7 @@ const testimonials = [
     company: "International Stair Products",
     content:
       "Offering premium stair solutions, International Stair Products combines quality materials with innovative designs for homes and businesses.",
-    categories: [1, 3],
+    categories: [1, 4, 5],
     link: "https://internationalstairproducts.com",
   },
   {
@@ -96,7 +96,7 @@ const testimonials = [
     company: "UD Renovations",
     content:
       "Transforming spaces with exceptional remodeling services, UD Renovations creates beautiful and functional environments tailored to your needs.",
-    categories: [1, 2, 5],
+    categories: [1, 5],
     link: "https://udrenovations.com",
   },
   {
@@ -106,7 +106,7 @@ const testimonials = [
     company: "Realty National Group",
     content:
       "Providing expert real estate services, Realty National Group helps clients navigate the buying, selling, and investing process with ease.",
-    categories: [1, 4],
+    categories: [1, 5],
     link: "https://realtynationalgroup.com",
   },
   {
@@ -116,7 +116,7 @@ const testimonials = [
     company: "Lucky Roots",
     content:
       "Supplying high-quality cannabis products, Lucky Roots is dedicated to providing natural and organic options for the discerning consumer.",
-    categories: [1, 2],
+    categories: [1, 4, 5],
     link: "https://luckyroots.com",
   },
   {
@@ -125,7 +125,7 @@ const testimonials = [
     name: "Dallas, TX",
     company: "LifeTax Financial",
     content: "Offering expert tax preparation and financial planning services, LifeTax Financial helps individuals and businesses achieve financial success.",
-    categories: [1, 3, 4],
+    categories: [1, 5],
     link: "https://lifetaxfinancial.com",
   },
   {
@@ -134,7 +134,7 @@ const testimonials = [
     name: "L.A./Costa Mesa, CA",
     company: "Terpene Warehouse",
     content: "Providing a wide range of terpene products, Terpene Warehouse is the go-to destination for high-quality terpenes sourced from natural ingredients.",
-    categories: [1, 5],
+    categories: [1, 3, 4],
     link: "https://terpenewarehouse.com",
   },
   {
@@ -143,7 +143,7 @@ const testimonials = [
     name: "Berlin, Germany",
     company: "Terpene Warehouse Germany",
     content: "A trusted supplier of high-quality terpenes in Europe, Terpene Warehouse Germany delivers exceptional products to businesses across the continent.",
-    categories: [1, 5],
+    categories: [1, 3, 4],
     link: "https://terpenewarehouse.de",
   },
 ];
